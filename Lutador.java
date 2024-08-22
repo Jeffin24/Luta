@@ -15,10 +15,12 @@ public class Lutador{
         
     }
     public void status(){
+        System.out.println("Nome: "+this.getNome());
         System.out.println("Categoria: "+this.getCategoria());
         System.out.println("Vitorias: "+this.getVitorias());
         System.out.println("Empates: "+this.getEmpates());
         System.out.println("Derrotas: "+this.getDerrotas());
+        System.out.println("----------------------");
     }
     public void ganharLuta(){
         this.setVitorias(this.getVitorias()+1);
